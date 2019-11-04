@@ -349,4 +349,3 @@ ALTER TABLE `feedback`
 ALTER TABLE `pro_image`
   ADD CONSTRAINT `FK_pro_image_product` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`);
 COMMIT;
-//suawr phai
